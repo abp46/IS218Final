@@ -126,6 +126,33 @@ function simpletest_example_empty_mysql_date($date_string) {
   return false;
 }
 
+function josh_test_2plus2($answer) {
+  if($answer == 4) 
+   return true;
+  else 
+  return false;
+}
+
+function josh_test_isequal($x,$z) {
+ if($x == $z)
+  return true;
+ else
+  return false;
+}
+
+function josh_test_myname($name) {
+ if($name == "Josh")
+  return true;
+ else
+  return false;
+}
+
+fuction josh_test_isnull($val) {
+ if(is_null($val))
+  return true;
+ else
+  return false;
+}
 /**
  * @} End of "defgroup simpletest_example".
  */
