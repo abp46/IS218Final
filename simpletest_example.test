@@ -159,8 +159,8 @@ class SimpletestUnitTestExampleTestCase extends DrupalUnitTestCase {
     $message = 'a null input would return true';
     $this->assertTrue($result, $message);
 
-    $result = asha_test_isvalid(acidulous);
-    $message = 'acidulous is a valid word';
+    $result = asha_test_myluckynumber(15);
+    $message '15 is not my lucky number';
     $this->assertTrue($result, $message);
 
     $result = asha_test_isint(10);
