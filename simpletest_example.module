@@ -159,12 +159,13 @@ function asha_test_isvalid($word) {
  else
    return false;
 }
-function asha_test_isint($myvar)
+function asha_test_isint($myvar){
   if(is_int($myvar))
     return true;
   else
     return false;
- 
+}
+
 /**
  * @} End of "defgroup simpletest_example".
  */
