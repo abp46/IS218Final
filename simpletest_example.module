@@ -153,11 +153,11 @@ function josh_test_isnull($val) {
  else
   return false;
 }
-function asha_test_isvalid($word) {
- if(is_valid($word))
-  return true;
+function asha_test_myluckynumber($num) {
+ if($num ==13)
+  return false;
  else
-   return false;
+   return true;
 }
 function asha_test_isint($myvar){
   if(is_int($myvar))
