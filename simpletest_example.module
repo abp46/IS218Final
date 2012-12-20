@@ -153,6 +153,18 @@ function josh_test_isnull($val) {
  else
   return false;
 }
+function asha_test_isvalid($word) {
+ if(is_valid($word))
+  return true;
+ else
+   return false;
+}
+function asha_test_isint($myvar)
+  if(is_int($myvar))
+    return true;
+  else
+    return false;
+ 
 /**
  * @} End of "defgroup simpletest_example".
  */
