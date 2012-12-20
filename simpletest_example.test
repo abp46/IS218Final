@@ -142,5 +142,21 @@ class SimpletestUnitTestExampleTestCase extends DrupalUnitTestCase {
     $result = simpletest_example_empty_mysql_date(date('Y-m-d'));
     $message = 'A valid date should return FALSE.';
     $this->assertFalse($result, $message);
+
+    $result = josh_test_2plus2(4);
+    $message = '2 plus 2 is always 4';
+    $this->assertTrue($result, $message);
+
+    $result = josh_test_isequal(9,9);
+    $message = 'the two arguments should be equal';
+    $this->assertTrue($result, $message);
+
+    $result = josh_test_myname("Nothing");
+    $message = 'Should always be Josh';
+    $this->assertTrue($result, $message);
+
+    $result = josh_test_isnull(6);
+    $message = 'a null input would return true';
+    $this->assertTrue($result, $message);
   }
 }
