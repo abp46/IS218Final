@@ -169,7 +169,7 @@ class SimpletestUnitTestExampleTestCase extends DrupalUnitTestCase {
     
     $result = asha_test_isnull("");
     $message = 'the null value return true';
-    $this->asserfalse($result,$message);
+    $this->assertFalse($result,$message);
    
     $result = asha_test_isstring('hello');
     $message = 'hello should return true';
