@@ -160,7 +160,7 @@ class SimpletestUnitTestExampleTestCase extends DrupalUnitTestCase {
     $this->assertTrue($result, $message);
 
     $result = asha_test_myluckynumber(15);
-    $message '15 is not my lucky number';
+    $message= '15 is not my lucky number';
     $this->assertTrue($result, $message);
 
     $result = asha_test_isint(10);
