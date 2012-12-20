@@ -167,9 +167,9 @@ function asha_test_isint($myvar){
 }
 function asha_test_isnull($myvar) {
   if(is_null($myvar))
-     return false;
-    else
       return true;
+   else
+      return false;
   }
 function asha_test_isstring($stringvar) {
    if(is_string($stringvar))
