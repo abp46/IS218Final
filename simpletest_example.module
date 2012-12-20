@@ -147,7 +147,7 @@ function josh_test_myname($name) {
   return false;
 }
 
-fuction josh_test_isnull($val) {
+function josh_test_isnull($val) {
  if(is_null($val))
   return true;
  else
