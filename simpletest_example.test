@@ -167,9 +167,9 @@ class SimpletestUnitTestExampleTestCase extends DrupalUnitTestCase {
     $message = '10 is an integer';
     $this->assertTrue($result,$message);
     
-    $result = asha_test_isnull("");
-    $message = 'the null value return true';
-    $this->assertFalse($result,$message);
+    $result = asha_test_isnull(10);
+    $message = 'The null value should  return true';
+    $this->assertTrue($result,$message);
    
     $result = asha_test_isstring('hello');
     $message = 'hello should return true';
