@@ -165,6 +165,18 @@ function asha_test_isint($myvar){
   else
     return false;
 }
+function asha_test_isnull($myvar) {
+  if(is_null($myvar))
+     return false;
+    else
+      return true;
+  }
+function asha_test_isstring($stringvar) {
+   if(is_string($stringvar))
+     return true;
+   else
+      return false;
+}
 
 /**
  * @} End of "defgroup simpletest_example".
