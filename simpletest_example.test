@@ -174,5 +174,21 @@ class SimpletestUnitTestExampleTestCase extends DrupalUnitTestCase {
     $result = asha_test_isstring('hello');
     $message = 'hello should return true';
     $this->assertFalse($result,$message);
+    
+    $result = ingrith_test_isred('red');
+    $message = 'The color red hould return true';
+    $this->assertTrue($result,$message);
+
+    $result = ingrith_test_iscircle('circle');
+    $message = 'Circle should return true';
+    $this->assertTrue($resul,$message);
+
+    $result = ingrith_test_oddNumber(3);
+    $message = '3 is an odd number';
+    $this->assertTrue($result,$message);
+
+    $result = ingrith_test_failGrade('F');
+    $message = 'F is a failed grade should return true';
+    $this->assertTrue($result,$message);
   }
 }
