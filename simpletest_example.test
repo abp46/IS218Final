@@ -176,19 +176,19 @@ class SimpletestUnitTestExampleTestCase extends DrupalUnitTestCase {
     $this->assertFalse($result,$message);
     
     $result = ingrith_test_isred('red');
-    $message = 'The color red hould return true';
+    $message = 'The color red should return true';
     $this->assertTrue($result,$message);
 
     $result = ingrith_test_iscircle('circle');
     $message = 'Circle should return true';
     $this->assertTrue($resul,$message);
 
-    $result = ingrith_test_oddNumber(3);
-    $message = '3 is an odd number';
+    $result = ingrith_test_oddNumber(4);
+    $message = '4 is not an odd number';
     $this->assertTrue($result,$message);
 
-    $result = ingrith_test_failGrade('F');
-    $message = 'F is a failed grade should return true';
+    $result = ingrith_test_failGrade('A');
+    $message = 'A is not a failed grade';
     $this->assertTrue($result,$message);
   }
 }
