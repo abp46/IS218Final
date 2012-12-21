@@ -177,6 +177,30 @@ function asha_test_isstring($stringvar) {
    else
       return false;
 }
+function ingrith_test_isred($color){
+   if($color == "red")
+	return true;
+   else
+	return false;
+}
+function ingrith_test_iscircle($iscircle){
+   if($iscircle == "circle")
+	return true;
+   else
+	return false;
+}
+function ingrith_test_oddNumber($number){
+   if($number == 3)
+	return true;
+   else
+	return false;
+}
+function ingrith_test_failGrade($finalGrade){
+   if($finalGrade == "F")
+	return true;
+   else
+	return false;
+}
 
 /**
  * @} End of "defgroup simpletest_example".
